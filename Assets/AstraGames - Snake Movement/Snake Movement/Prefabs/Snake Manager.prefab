@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7528922076046328640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7528922076046328642}
+  - component: {fileID: 7528922076046328643}
+  - component: {fileID: 211537307}
+  m_Layer: 0
+  m_Name: Snake Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7528922076046328642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528922076046328640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -44.2, y: 1.9, z: -61.57805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7528922076046328643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528922076046328640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95348e35d4e4f714d8f68e20a39c892a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceBetween: 0.05
+  speed: 250
+  turnSpeed: 250
+  bodyParts:
+  - {fileID: 2368008703240698332, guid: 15e7d1443be8004408fe83b41f31d6be, type: 3}
+  - {fileID: 4095788147573828261, guid: e0ed77c4554a698428a8483b50bd1079, type: 3}
+  - {fileID: 4095788147573828261, guid: e0ed77c4554a698428a8483b50bd1079, type: 3}
+  cCamera: {fileID: 0}
+--- !u!114 &211537307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528922076046328640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7154bb07bcd29846a0abdb7331897f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addPart1: {fileID: 2757485659982930217, guid: bbada73f6ec738944a6cbc8da3cfc6c0, type: 3}
+  addPart2: {fileID: 2757485659982930217, guid: 0c2d07c7ea233854c81e946a87b3b9f9, type: 3}
+  addPart3: {fileID: 2757485659982930217, guid: a165a78081791be4a89bf1240a3615e3, type: 3}
+  addPart4: {fileID: 2757485659982930217, guid: 5bf0d1f1990987f41ac267ba3d47349f, type: 3}
+  addPart5: {fileID: 2757485659982930217, guid: 96479cf75566fab4a9f4d58e5c25bc05, type: 3}
+  addPart6: {fileID: 2757485659982930217, guid: 819965c294c27c942a630e992f7faa51, type: 3}
+  addPart7: {fileID: 2757485659982930217, guid: b524d7a4290a5f2479bc9163f3d3d909, type: 3}
+  addPart8: {fileID: 2757485659982930217, guid: a36438c21197937429c8668dae3528b2, type: 3}
+  addPart9: {fileID: 2757485659982930217, guid: 9764444a98303d74dba5887311497018, type: 3}
